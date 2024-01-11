@@ -1,6 +1,5 @@
 //https://www.codecademy.com/courses/learn-redux-fundamentals/lessons/strategies-for-complex-state/exercises/using-store-data-within-feature-components
 import React from 'react';
-//import { createRoot } from 'react-dom/client.js';
 import { createRoot } from 'react-dom/client';
 
 import { App } from './app/App.js';
