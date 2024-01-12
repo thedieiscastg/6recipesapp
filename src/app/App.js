@@ -14,6 +14,12 @@ export function App(props) {
 
   // Render the <FavoriteRecipes /> component.
   // Pass `dispatch` and `favoriteRecipes` props.
+  // console.log('you see this');
+  for (let key in state) {
+    console.log('key is ' + key);
+    console.log('value is ' + state[key]);
+    console.log('state is: ' + JSON.stringify(state));
+  }
   return (
     <main>
       <section>
