@@ -13,7 +13,7 @@ const render = () => {
     <App 
     state={store.getState()}
     dispatch={store.dispatch}
-    />,
+    />
   )
 }
 render();
